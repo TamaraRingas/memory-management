@@ -84,7 +84,7 @@ public class MemoryManagement {
    public static void main(String [] args){
       try {  
          //PrintWrite to write physical addresses to the output file. 
-         PrintWriter outputStream = new PrintWriter(new FileWriter("output-OS1test.txt"));
+         PrintWriter outputStream = new PrintWriter(new FileWriter("output.txt"));
          
          readFile("OS1testsequence");
          //Traverse the ArrayList of virtual address entries. 
